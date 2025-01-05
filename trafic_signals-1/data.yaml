@@ -1,0 +1,17 @@
+names:
+- '3'
+- Stop-Sign - v1 2025-01-05 1-08am
+- down
+- left
+- right
+- up
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: trafic_signals
+  url: https://app.roboflow.com/arrowdirections/trafic_signals/1
+  version: 1
+  workspace: arrowdirections
+test: ../test/images
+train: trafic_signals-1/train/images
+val: trafic_signals-1/valid/images
